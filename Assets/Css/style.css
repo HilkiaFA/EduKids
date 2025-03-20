@@ -1,0 +1,495 @@
+body{
+    overflow-x: hidden;
+}
+.asset-section-1{
+    width: 100%;
+}
+.section-1 {
+        background-image: url('/Assets/img/background-1.png');
+        height: 600px;
+        width: 100%;
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.program-card {
+    border: 2px dashed #f1c40f;
+    padding: 20px;
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+    background: white;
+}
+.program-card img {
+    background: #fdebd0;
+    border-radius: 50%;
+    padding: 15px;
+}
+.program-card.featured {
+    color: white;
+    background-image: url('/Assets/img/background-card.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.carousel-indicators button {
+    background-color: black;
+}
+
+.program-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.program-image {
+    position: relative;
+    width: 40%;
+}
+.program-image img {
+    width: 100%;
+    border-radius: 50px;
+}
+.program-text {
+    width: 55%;
+}
+.program-text h2 {
+    font-weight: bold;
+}
+.info-box {
+    background: #17c2c2;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-box div {
+    text-align: center;
+}
+.info-box h3 {
+    font-weight: bold;
+    margin: 0;
+}
+.info-list {
+    margin-top: 15px;
+}
+.info-list p {
+    display: flex;
+    align-items: center;
+}
+.info-list img {
+    width: 20px;
+    margin-right: 10px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-main {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.btn-video {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: black;
+    margin-left: 15px;
+}
+.btn-video img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.edu-programs-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('/Assets/img/background-1.png');
+        width: 100%;
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.edu-programs-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edu-programs-section p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+.edu-program-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+.edu-program-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.edu-program-card h5 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.edu-program-card p {
+    color: #444;
+    font-size: 14px;
+}
+.edu-program-card .edu-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.edu-details div {
+    background: #17c2c2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    flex: 1;
+    margin: 0 5px;
+}
+.edu-details div.edu-orange {
+    background: #f39c12;
+}
+.edu-details div.edu-pink {
+    background: #e74c3c;
+}
+
+.edu-carousel-indicators {
+    position: relative;
+    margin-top: 20px;
+}
+.edu-carousel-indicators button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    margin: 0 5px;
+}
+
+.edukid-about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.edukid-about-text {
+    width: 50%;
+}
+
+.edukid-about-text h2 {
+    font-weight: bold;
+}
+
+.edukid-accordion {
+    margin-top: 20px;
+}
+
+.edukid-accordion-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.edukid-accordion-header {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edukid-accordion-item.active .edukid-accordion-header {
+    background: #f39c12;
+    color: white;
+}
+
+.edukid-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.edukid-accordion-content {
+    padding: 15px;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+
+.edukid-accordion-item.active .edukid-accordion-content {
+    display: block;
+}
+
+.edukid-about-image {
+    position: relative;
+    width: 45%;
+}
+
+.edukid-about-image img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.session-banner {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background: url('/Assets/img/Background-Session.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Overlay warna */
+.session-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 194, 194, 0.75); /* Warna overlay dengan transparansi */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Judul */
+.session-overlay h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Paragraf */
+.session-overlay p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.session-btn {
+    display: inline-block;
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.session-btn:hover {
+    background: #e67e22;
+}
+
+/* Section Styling */
+.best-educators-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.best-educators-section h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.best-educators-section p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Carousel Container */
+.educators-carousel-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.educators-carousel {
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.educators-carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    cursor: grab; /* Tanda bahwa bisa digeser */
+}
+
+/* Educator Cards */
+.educator-card {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.educator-card img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.educator-info {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.educator-info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.educator-info p {
+    font-size: 14px;
+    color: gray;
+}
+@media (max-width: 768px) {
+    .carousel-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel-item {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .asset-section-1{
+        display: none;
+    }
+    .program-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .program-image, .program-text {
+        width: 100%;
+    }
+    .info-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+      .edu-programs-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .section-edu-2{
+        display: flex;
+    }
+    .section-edu-1{
+        display: none;
+    }
+    .edu-program-card {
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+        min-width: 80%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .edu-carousel-indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .edu-carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #ccc;
+        border: none;
+        margin: 0 5px;
+    }
+
+    .edu-carousel-indicators .edu-active {
+        background-color: #3498db;
+    }
+
+    .edukid-about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .edukid-about-text, 
+    .edukid-about-image {
+        width: 100%;
+    }
+
+    .edukid-about-image {
+        margin-top: 20px;
+    }
+
+    .session-banner {
+        height: 280px;
+    }
+
+    .session-overlay h2 {
+        font-size: 24px;
+    }
+
+    .session-overlay p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .session-btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+    .educators-carousel {
+        width: 100%;
+    }
+
+    .educator-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
